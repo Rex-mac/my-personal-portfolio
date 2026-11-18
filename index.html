@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Renuja Rodrigo – Information Systems student showcasing skills, projects, and achievements.">
+  <title>Renuja Rodrigo | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Modern, clean font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Skip link for accessibility -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Header / Navigation -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#home" class="logo" aria-label="Renuja Rodrigo – Home">RR</a>
+      
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+          <span class="theme-icon" aria-hidden="true">🌙</span>
+        </button>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ========== HOME / HERO ========== -->
+    <section id="home" class="hero section">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="hero-greeting">Hello, I'm</p>
+          <h1 class="hero-name">Renuja Rodrigo</h1>
+          <p class="hero-title">Information Systems Student</p>
+          <p class="hero-intro">
+            Passionate about building practical digital solutions that connect technology with real business needs.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-outline">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <!-- Placeholder for profile picture – replace the div with an <img> when you have a photo -->
+          <div class="profile-placeholder" aria-label="Profile picture of Renuja Rodrigo">
+            <span>RR</span>
+          </div>
+          <!-- 
+          Uncomment and use this when you add a real photo:
+          <img src="images/profile.jpg" alt="Renuja Rodrigo" class="profile-img" width="280" height="280">
+          -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ME ========== -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <p>
+            I am an Information Systems student with a strong interest in how technology can solve real-world problems 
+            in organizations. I enjoy analyzing systems, designing user-friendly solutions, and turning ideas into 
+            working applications.
+          </p>
+          <p>
+            My goal is to grow into a professional who bridges the gap between technical teams and business stakeholders. 
+            I am continuously learning new tools and approaches in web development, databases, and system design.
+          </p>
+          <p>
+            Outside of studies, I like exploring new technologies, improving my problem-solving skills, and 
+            collaborating on projects that make a practical impact.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EDUCATION ========== -->
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <h3>Bachelor of Science in Information Systems</h3>
+              <p class="timeline-meta">University Name • 2023 – Present</p>
+              <p>
+                Focus areas: Systems Analysis & Design, Database Management, Web Development, 
+                Business Process Management, and Project Management.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <h3>Advanced Level / Secondary Education</h3>
+              <p class="timeline-meta">School Name • Year Completed</p>
+              <p>
+                Relevant subjects and achievements can be listed here (e.g., Mathematics, ICT, Accounting).
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Technical Skills</h3>
+            <ul class="skill-list">
+              <li>HTML5 & CSS3</li>
+              <li>JavaScript</li>
+              <li>Responsive Web Design</li>
+              <li>SQL & Databases</li>
+              <li>Systems Analysis & Design</li>
+              <li>Version Control (Git)</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Tools & Platforms</h3>
+            <ul class="skill-list">
+              <li>VS Code</li>
+              <li>GitHub</li>
+              <li>Microsoft Office / Google Workspace</li>
+              <li>Figma (basic UI design)</li>
+              <li>Basic Python</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Soft Skills</h3>
+            <ul class="skill-list">
+              <li>Problem Solving</li>
+              <li>Team Collaboration</li>
+              <li>Communication</li>
+              <li>Time Management</li>
+              <li>Adaptability</li>
+              <li>Critical Thinking</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-header">
+              <h3>Student Information System</h3>
+              <span class="project-tag">Web Application</span>
+            </div>
+            <p>
+              A web-based system to manage student records, course enrollment, and basic reporting. 
+              Built with HTML, CSS, JavaScript and a simple backend structure for data handling.
+            </p>
+            <ul class="project-tech">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>SQL</li>
+            </ul>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-header">
+              <h3>Inventory Management Dashboard</h3>
+              <span class="project-tag">Dashboard</span>
+            </div>
+            <p>
+              An interactive dashboard concept for tracking inventory levels, low-stock alerts, 
+              and basic sales summaries. Focused on clean UI and responsive layout.
+            </p>
+            <ul class="project-tech">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-header">
+              <h3>Personal Portfolio Website</h3>
+              <span class="project-tag">Frontend</span>
+            </div>
+            <p>
+              This responsive single-page portfolio built with pure HTML, CSS and JavaScript. 
+              Includes dark mode, smooth animations, and accessibility features.
+            </p>
+            <ul class="project-tech">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ACHIEVEMENTS ========== -->
+    <section id="achievements" class="section">
+      <div class="container">
+        <h2 class="section-title">Achievements</h2>
+        <div class="achievements-list">
+          <article class="achievement-item">
+            <h3>Dean’s List / Academic Excellence</h3>
+            <p class="achievement-meta">University Name • 2024 / 2025</p>
+            <p>Recognized for outstanding academic performance in Information Systems courses.</p>
+          </article>
+          <article class="achievement-item">
+            <h3>Web Development Fundamentals Certificate</h3>
+            <p class="achievement-meta">Online Platform / Institution • Year</p>
+            <p>Completed a structured course covering HTML, CSS, responsive design and JavaScript basics.</p>
+          </article>
+          <article class="achievement-item">
+            <h3>Hackathon / Project Competition Participant</h3>
+            <p class="achievement-meta">Event Name • Year</p>
+            <p>Participated in a team project focused on solving a real-world information systems problem.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p class="contact-intro">
+          I’m open to learning opportunities, internships, and collaborations. Feel free to reach out.
+        </p>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p>
+              <strong>Email:</strong><br>
+              <a href="mailto:renuja.rodrigo@example.com">renuja.rodrigo@example.com</a>
+            </p>
+            <p>
+              <strong>LinkedIn:</strong><br>
+              <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">linkedin.com/in/yourprofile</a>
+            </p>
+            <p>
+              <strong>GitHub:</strong><br>
+              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">github.com/yourusername</a>
+            </p>
+          </div>
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required autocomplete="name" placeholder="Your name">
+              <span class="error-message" id="name-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required autocomplete="email" placeholder="your.email@example.com">
+              <span class="error-message" id="email-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Write your message..."></textarea>
+              <span class="error-message" id="message-error"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <p class="form-note" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Renuja Rodrigo. Built with HTML, CSS & JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
