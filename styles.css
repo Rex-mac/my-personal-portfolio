@@ -144,6 +144,16 @@ ul {
   color: var(--accent);
 }
 
+
+.nav-profile-img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+
+
 .header-actions {
   display: flex;
   align-items: center;
